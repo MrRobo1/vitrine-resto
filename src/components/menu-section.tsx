@@ -22,7 +22,7 @@ const plats = [
 export default function Carte() {
     return (
         <section className="bg-foreground text-white py-16 px-4">
-            <h2 className="text-center text-4xl font-serif mb-12">Notre Carte</h2>
+            <h2 className="text-center text-4xl mb-12">Notre Carte</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {plats.map((plat, index) => (
                     <Card

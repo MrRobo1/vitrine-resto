@@ -17,7 +17,7 @@ export default function APropos() {
           </div>
 
           <CardContent className="p-0 text-gray-300">
-            <h2 className="text-3xl font-serif text-white mb-4">À propos</h2>
+            <h2 className="text-3xl text-white mb-4">À propos</h2>
             <p className="mb-4">
               Bienvenue chez Épicurien, un restaurant gastronomique où chaque plat est pensé comme 
               une œuvre d’art. 
