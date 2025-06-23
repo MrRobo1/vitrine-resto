@@ -1,7 +1,7 @@
 
 export default function Header() {
     return (
-        <header className="relative h-[60vh] w-full">
+        <header className="relative h-screen w-full">
             <video
               className="absolute inset-0 w-full h-full object-cover"
               autoPlay
@@ -19,6 +19,9 @@ export default function Header() {
                 Bienvenue chez<br />Épicurien
               </h1>
             </div>
+            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 animate-bounce text-white">
+              <span className="text-xl">↓</span>
+            </div>
         </header>
     )
-}
+};
