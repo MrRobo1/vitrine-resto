@@ -43,20 +43,11 @@ export default function RestaurantSection() {
     <section className="bg-foreground text-white py-16 px-4">
       <h2 className="text-center text-4xl">Découvrez notre restaurant</h2>
       <p className="py-16 px-4 mx-auto max-w-4xl">
-        Bienvenue chez Épicurien, un restaurant gastronomique où l’art culinaire rencontre
-        l’élégance. Niché au cœur de la ville, notre établissement célèbre la cuisine française
-        moderne à travers des plats raffinés, élaborés à partir de produits frais, de saison et
-        soigneusement sélectionnés. Chaque assiette raconte une histoire, portée par la passion de
-        notre chef et son équipe, dans un cadre chaleureux, sobre et contemporain. Que ce soit pour
-        un dîner en tête-à-tête, un déjeuner d’affaires ou une célébration, Épicurien vous promet
-        une expérience gustative inoubliable, entre tradition et créativité.Bienvenue chez
-        Épicurien, un restaurant gastronomique où l’art culinaire rencontre l’élégance. Niché au
-        cœur de la ville, notre établissement célèbre la cuisine française moderne à travers des
-        plats raffinés, élaborés à partir de produits frais, de saison et soigneusement
-        sélectionnés. Chaque assiette raconte une histoire, portée par la passion de notre chef et
-        son équipe, dans un cadre chaleureux, sobre et contemporain. Que ce soit pour un dîner en
-        tête-à-tête, un déjeuner d’affaires ou une célébration, Épicurien vous promet une expérience
-        gustative inoubliable, entre tradition et créativité.
+        Bienvenue chez Épicurien, un lieu où la gastronomie française s’exprime avec modernité et
+        passion. Dans un cadre raffiné et chaleureux, notre chef sublime des produits frais et de
+        saison pour créer une cuisine inventive et délicate. Que ce soit pour un dîner intime, un
+        repas d’affaires ou une célébration, chaque assiette raconte une histoire. Épicurien vous
+        invite à vivre une expérience sensorielle unique, entre tradition et créativité.
       </p>
       <div className="flex justify-center">
         <Carousel className="w-full max-w-sm">
