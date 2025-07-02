@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
+import Link from 'next/link';
 
 const plats = [
   {
@@ -46,6 +47,9 @@ export default function Carte() {
           </Card>
         ))}
       </div>
+      <Link href="/carte" className="block text-white hover:text-yellow-500 py-5 text-right mr-4">
+        Voir la Carte
+      </Link>
     </section>
   );
 }
