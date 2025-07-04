@@ -42,7 +42,7 @@ export default function RestaurantSection() {
   return (
     <section className="bg-foreground text-white py-16 px-4">
       <h2 className="text-center text-4xl">Découvrez notre restaurant</h2>
-      <p className="py-16 px-4 mx-auto max-w-4xl">
+      <p className="py-16 px-4 mx-auto max-w-6xl">
         Bienvenue chez Épicurien, un lieu où la gastronomie française s’exprime avec modernité et
         passion. Dans un cadre raffiné et chaleureux, notre chef sublime des produits frais et de
         saison pour créer une cuisine inventive et délicate. Que ce soit pour un dîner intime, un
@@ -50,7 +50,7 @@ export default function RestaurantSection() {
         invite à vivre une expérience sensorielle unique, entre tradition et créativité.
       </p>
       <div className="flex justify-center">
-        <Carousel className="w-full max-w-sm">
+        <Carousel className="relative w-full max-w-6xl overflow-hidden">
           <CarouselContent className="-ml-1">
             {restaurants.map((restaurant) => (
               <CarouselItem
@@ -90,8 +90,8 @@ export default function RestaurantSection() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="text-black" />
-          <CarouselNext className="text-black" />
+          <CarouselPrevious className="absolute left-1 top-1/2 -translate-y-1/2 z-10 text-black" />
+          <CarouselNext className="absolute right-1 top-1/2 -translate-y-1/2 z-10 text-black" />
         </Carousel>
       </div>
     </section>

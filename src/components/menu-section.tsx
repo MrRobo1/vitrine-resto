@@ -47,9 +47,14 @@ export default function Carte() {
           </Card>
         ))}
       </div>
-      <Link href="/carte" className="block text-white hover:text-yellow-500 py-5 text-right mr-4">
-        Voir la Carte
-      </Link>
+      <div className="flex justify-end max-w-6xl mx-auto mt-4">
+        <Link
+          href="/carte"
+          className="text-white hover:text-yellow-500 transition-colors duration-300"
+        >
+          Voir la Carte
+        </Link>
+      </div>
     </section>
   );
 }
