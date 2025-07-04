@@ -39,6 +39,7 @@ const restaurants = [
 
 export default function RestaurantSection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   return (
     <section className="bg-foreground text-white py-16 px-4">
       <h2 className="text-center text-4xl">Découvrez notre restaurant</h2>
