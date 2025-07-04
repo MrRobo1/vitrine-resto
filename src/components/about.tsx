@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 export default function About() {
   return (
     <section className="bg-foreground text-white py-16 px-4">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <Card className="bg-foreground flex flex-col md:flex-row items-center gap-8 p-6 rounded-xl shadow-lg">
           <div className="flex-shrink-0">
             <Image
